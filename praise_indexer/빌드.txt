@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --name "PraisePPT" --add-data "temp.pptx;." --add-data "praise_index.json;." json_gui.py

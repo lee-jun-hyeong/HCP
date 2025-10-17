@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "찬양 PPT 병합 프로그램",
+    "version": "1.0.0",
+    "author": "HCV"
+  },
+  "database": {
+    "path": "praise_index.db"
+  },
+  "template": {
+    "path": "temp.pptx"
+  },
+  "search": {
+    "min_query_length": 2,
+    "fuzzy_threshold": 70,
+    "max_results": 50
+  },
+  "ui": {
+    "theme": "dark",
+    "color_theme": "blue",
+    "window_width": 1400,
+    "window_height": 900
+  }
+}
+

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build
+build/
+dist/
+*.spec
+
+# Data files (용량이 큰 파일들)
+# praise_index.json  # 백업을 위해 업로드함
+*.pptx
+*.hwp
+
+# PPT 파일들 (용량이 너무 큼)
+Praise_PPT/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+temp.pptx
+temp_*.pptx
+

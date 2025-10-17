@@ -1,0 +1,17 @@
+# 찬양 PPT 검색 & 병합 프로그램 필수 라이브러리
+
+# GUI
+customtkinter>=5.2.0
+
+# PPT 처리
+python-pptx>=0.6.21
+
+# 검색 엔진
+rapidfuzz>=3.0.0
+
+# 한글 처리 (선택적)
+jamo>=0.4.1
+
+# 실행파일 생성
+pyinstaller>=6.0.0
+
