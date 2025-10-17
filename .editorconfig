@@ -1,0 +1,16 @@
+# EditorConfig는 다양한 에디터와 IDE에서 일관된 코딩 스타일을 유지하는 데 도움을 줍니다
+root = true
+
+# 모든 파일에 대한 기본 설정
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# 바이너리 파일 제외
+[*.{ppt,pptx,hwp,exe,dll,bin,png,jpg,jpeg,gif,ico,pdf,zip,rar}]
+charset = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+
